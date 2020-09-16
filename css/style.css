@@ -1,0 +1,54 @@
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #FF0101;
+}
+
+.pt-6 {
+    padding-top: 5rem !important;
+}
+
+.pb-6 {
+    padding-bottom: 5rem !important;
+}
+
+.pl-6 {
+    padding-left: 5rem !important;
+}
+
+.pr-6 {
+    padding-right: 5rem !important;
+}
+
+.pb-7 {
+    padding-bottom: 7rem !important;
+}
+
+.pl-percent-10 {
+    padding-left: 10% !important;
+}
+
+.pr-percent-10 {
+    padding-right: 10% !important;
+}
+
+.nav-item {
+    font-size: large;
+}
+
+.font-thick-large {
+    font-size: 5em;
+}
+
+.home-background {
+    background-image: url("../images/a.png");
+    background-repeat: no-repeat;
+    background-position: 650px 80px;
+}
+
+.home-content {
+    max-width: 950px;
+}
+
+.icon-framework {
+    width: 42px;
+    height: 52px;
+}
