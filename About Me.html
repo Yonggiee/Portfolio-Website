@@ -12,14 +12,14 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light nav-fill">
+            <nav class="navbar navbar-expand-lg navbar-light nav-fill fixed-top">
                 <div class="pt-5 ml-auto pb-5">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
 
-                <div class="collapse navbar-collapse pt-3 pb-7" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse pt-3">
                     <ul class="navbar-nav justify-content-between w-100 pl-6 pr-6 pt-2">
                         <li class="nav-item">
                             <a class="nav-link" href="/Home.html">Home</a>
@@ -38,22 +38,41 @@
             </nav>
         </div>
 
-        <div class="container1">
-            <div class="about-me-static" style="grid-column: 2/3;">
-                <div style="margin-left:10%; margin-right:10%; margin-top:-7%;">
-                    <img style="width: 200px; height: auto; float: left; margin-right:20px;" src="images/Me.png">
-                    <div class="pt-4">
-                        <h1 >About Me</h1>
-                        <p > t amet, consectetur adipiscing elit. Donec ac consequat purus. Etiam porta sit amet nisl nec tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec vitae imperdiet risus.t amet, consectetur adipiscing elit. Donec ac consequat purus. Etiam porta sit amet nisl nec tincidunt.</p>
-                    </div>
+        <img src="./images/home-top-right.png" id="about-top-right-bg">
+        <img src="./images/home-bottom-left.png" id="about-bottom-left-bg">
+        <div id="about-profile-panel">
+            <div id="about-profile">
+                <img src="./images/Me.png" height="200" width="200" />
+                <div id="about-logos">
+                    <img src="./images/github.png" height="30" />
+                    <img src="./images/linkedin.png" height="30" />
+                    <img src="./images/insta.png" height="30" />
                 </div>
             </div>
-            <span style="grid-row:2/3; grid-column:1/4; margin-left: 5%; margin-right:5%;" class="horizontal-line"></span>
-            <div style="grid-column: 2/3; grid-row: 3/3;">
-                <span class="vertical-line"></span>
-            </span>
+            <div id="about-me">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laboriosam tempore eos qui totam. Libero dictavitae natus fugit placeat quasi necessitatibus ut et reprehenderit labore tempora, nostrum deleniti minusmolestiae. Quisquam quia soluta rem debitis id nisi aliquid iusto modi accusantium officia minima nobis qui mollitia possimus, sunt inventore!</p>
+            </div>
         </div>
 
+        <div id="about-information-panel">
+        <div id="about-information-container">
+
+        <div id="about-side-nav">
+            <ul>
+                <li style="color:red;">Certificates</li>
+                <li>Work Experiences</li>
+                <li>Hobbies</li>
+            </ul>
+        </div>
+
+        <div id="about-content">
+            <h5>AWS Certified Developer - Associate</h5>
+            <p>ctetur adipisicing elit askndakdna aksdlak skadlnksal aksdna lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+            <h5>Database Essentials - Coursera</h5>
+            <p>ctetur adipisicing elit askndakdna aksdlak skadlnksal aksdna lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        </div>
+    
         <!-- JavaScript placed at the end of the document so the pages load faster -->
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
