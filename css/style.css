@@ -1,13 +1,13 @@
+p {
+    font-size: 15px;
+}
+
 .navbar-light .navbar-nav .active>.nav-link {
     color: #FF0101;
 }
 
 .nav-item {
     font-size: large;
-}
-
-p {
-    font-size: 15px;
 }
 
 .active {
